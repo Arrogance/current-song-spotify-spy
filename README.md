@@ -1,4 +1,4 @@
-# Spotify Current Track Logger ![example workflow](https://github.com/Arrogance/current-song-spotify-spy/actions/workflows/test.yml/badge.svg)
+# Spotify Current Track Logger ![test workflow](https://github.com/Arrogance/current-song-spotify-spy/actions/workflows/test.yml/badge.svg)
 This script logs the current song playing on your Spotify account to a text file called current_song.txt. It continuously checks for song changes and updates the text file accordingly.
 
 ## Requirements
