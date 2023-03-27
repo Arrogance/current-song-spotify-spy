@@ -26,4 +26,4 @@ jobs:
         pip install spotipy python-dotenv
 
     - name: Run tests
-      run: python test_twitch_spotify_spy.py
+      run: python test_script.py
