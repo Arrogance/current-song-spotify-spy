@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+.cache
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+
+# VSCode configuration files
+.vscode/
+
+# PyCharm configuration files
+.idea/
+
+# macOS artifacts
+.DS_Store
+
+# Script
+current_song.txt
