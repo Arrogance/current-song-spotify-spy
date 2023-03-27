@@ -38,7 +38,7 @@ Now you have your Spotify API credentials: Client ID, Client Secret, and Redirec
 Run the script by executing the following command:
 
 ```bash
-python twitch_spotify_spy.py
+python script.py
 ```
 
 The script will create or update a file named `current_song.txt` in the same directory, containing the currently playing song and artist on your Spotify account.
@@ -49,7 +49,7 @@ To stop the script, press Ctrl+C in the terminal.
 To run the tests, execute the following command:
 
 ```bash
-python test_twitch_spotify_spy.py
+python test_script.py
 ```
 
 This will run the test cases and report the results.
