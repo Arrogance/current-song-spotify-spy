@@ -1,8 +1,16 @@
 import unittest
 from unittest.mock import MagicMock
+from unittest.mock import patch
 from twitch_spotify_spy import extract_song_artist
 
 class TestSpotifyCurrentTrack(unittest.TestCase):
+
+    @patch.dict(os.environ, {
+        'SPOTIPY_CLIENT_ID': 'test_client_id',
+        'SPOTIPY_CLIENT_SECRET': 'test_client_secret',
+        'SPOTIPY_REDIRECT_URI': 'test_redirect_uri',
+        'SLEEP_DELAY': '10'
+    })
 
     def test_extract_song_artist(self):
         mock_current_playback = {
